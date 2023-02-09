@@ -106,7 +106,7 @@ var tl04 = gsap.timeline({
     scrub: 1,
     pin: true,
     end: "+=5000px",
-    markers: true,
+    // markers: true,
   }
 })
 
@@ -411,3 +411,79 @@ tl1.to("#home2 .bottom-bar .center-bar .box:nth-child(3)", {
   ease: "power1",
   
 },"text4")
+
+var tl5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#home3",
+    start: "top top",
+    // pin: true,
+    scrub: 1,
+    markers: true,
+    end: "bottom bottom",
+  },
+})
+
+tl5.to("#home3 .center-img", {
+  duration: 5,
+  ease: "power1",
+  rotate: "360deg",
+},"home3")
+
+tl5.to(".animate-bar p", {
+  duration: 5,
+  ease: "power1",
+  x: -500,
+},"home3")
+
+tl5.to(".animation-triangle .ray .overlay-img", {
+  duration: 5,
+  ease: "power1",
+  width: "0%",
+  delay: -1,
+},"home3-text")
+
+tl5.to(".animation-triangle .text p:nth-child(1)", {
+  duration: 2,
+  ease: "power1",
+  margin: "0",
+  delay: 1,
+},"home3-text")
+
+tl5.to(".animation-triangle .text p:nth-child(2)", {
+  duration: 2,
+  ease: "power1",
+  margin: "0",
+  delay: 1,
+},"home3-text")
+
+tl5.to(".animation-triangle .text p:nth-child(3)", {
+  duration: 2,
+  ease: "power1",
+  margin: "0",
+  delay: 1,
+},"home3-text")
+
+tl5.to("#main #home3 .img-gallery .center-gallery", {
+  duration: 2,
+  ease: "power1",
+  y: -50,
+  delay: 1,
+},"home3-text")
+
+tl5.to("#main #home3 .img-gallery .right-gallery", {
+  duration: 5,
+  ease: "power1",
+  y: -100,
+  delay: 1,
+},"home3-text")
+
+var tl6 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#home4",
+    start: "top top",
+    // pin: true,
+    scrub: 1,
+    // markers: true,
+    end: "+=1000px",
+  },
+})

@@ -6,7 +6,7 @@
 
 #main {
   width: 100%;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #loader {
@@ -48,7 +48,7 @@
   gap: 10px;
 }
 
-#loader .center-top .box ,
+#loader .center-top .box,
 #loader .center-bottom .box {
   min-width: 350px;
   height: 100%;
@@ -66,39 +66,39 @@
   margin: 0 0 0 20px;
 }
 
-#loader .center-top .box:first-child ,
+#loader .center-top .box:first-child,
 #loader .center-bottom .box:first-child {
   background-color: #da8452;
 }
 
-#loader .center-top .box:nth-child(2) ,
+#loader .center-top .box:nth-child(2),
 #loader .center-bottom .box:nth-child(2) {
   background-color: #e8cbd4;
 }
 
-#loader .center-top .box:nth-child(3) ,
+#loader .center-top .box:nth-child(3),
 #loader .center-bottom .box:nth-child(3) {
   background-color: #97974a;
 }
 
-#loader .center-top .box:nth-child(4) ,
+#loader .center-top .box:nth-child(4),
 #loader .center-bottom .box:nth-child(4) {
   background-color: #e8b63a;
 }
-#loader .center-top .box:nth-child(5) ,
+#loader .center-top .box:nth-child(5),
 #loader .center-bottom .box:nth-child(5) {
   background-color: #bb3f26;
 }
-#loader .center-top .box:nth-child(6) ,
+#loader .center-top .box:nth-child(6),
 #loader .center-bottom .box:nth-child(6) {
   background-color: #114d92;
 }
-#loader .center-top .box:nth-child(7) ,
+#loader .center-top .box:nth-child(7),
 #loader .center-bottom .box:nth-child(7) {
   background-color: #f4d6df;
 }
 
-#loader .center-top .box:nth-child(8) ,
+#loader .center-top .box:nth-child(8),
 #loader .center-bottom .box:nth-child(8) {
   background-color: #97974a;
 }
@@ -211,17 +211,18 @@
   height: 100vh;
 }
 
-/* ------------------- SAME INTRO FOR HOME0 & HOME1 ---------------------- */
+/* ------------------- SAME INTRO FOR HOME0 & HOME1 & HOME3 ---------------------- */
 
-#main #home0 .intro ,
-#main #home02 .intro {
+#main #home0 .intro,
+#main #home02 .intro,
+#main #home3 .intro {
   width: 100%;
   display: flex;
-
 }
 
-#main #home0 .intro .serial ,
-#main #home02 .intro .serial {
+#main #home0 .intro .serial,
+#main #home02 .intro .serial,
+#main #home3 .intro .serial {
   width: 15%;
   color: #fff;
   font-size: 4rem;
@@ -230,16 +231,18 @@
   margin-left: 3rem;
 }
 
-#main #home0 .intro .box ,
-#main #home02 .intro .box {
+#main #home0 .intro .box,
+#main #home02 .intro .box,
+#main #home3 .intro .box {
   width: 15%;
   color: #fff;
   font-size: 1rem;
   margin-top: 3rem;
 }
 
-#main #home0 .intro .heading ,
-#main #home02 .intro .heading {
+#main #home0 .intro .heading,
+#main #home02 .intro .heading,
+#main #home3 .intro .heading {
   width: 50%;
   color: #fff;
   font-size: 2.5rem;
@@ -249,14 +252,16 @@
   padding-right: 8rem;
 }
 
-#main #home0 .intro .heading span ,
-#main #home02 .intro .heading span {
+#main #home0 .intro .heading span,
+#main #home02 .intro .heading span,
+#main #home3 .intro .heading span {
   font-size: 4rem;
   font-weight: 700;
 }
 
-#main #home0 .intro .circle-animation ,
-#main #home02 .intro .circle-animation {
+#main #home0 .intro .circle-animation,
+#main #home02 .intro .circle-animation,
+#main #home3 .intro .circle-animation {
   width: 20%;
   height: 100%;
   /* background-color: #fff; */
@@ -266,8 +271,9 @@
   margin-top: 3rem;
 }
 
-#main #home0 .intro .circle-animation .intro-circle1 ,
-#main #home02 .intro .circle-animation .intro-circle1 {
+#main #home0 .intro .circle-animation .intro-circle1,
+#main #home02 .intro .circle-animation .intro-circle1,
+#main #home3 .intro .circle-animation .intro-circle1 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -287,8 +293,9 @@
   }
 }
 
-#main #home0 .intro .circle-animation .intro-circle2 ,
-#main #home02 .intro .circle-animation .intro-circle2 {
+#main #home0 .intro .circle-animation .intro-circle2,
+#main #home02 .intro .circle-animation .intro-circle2,
+#main #home3 .intro .circle-animation .intro-circle2 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -333,7 +340,6 @@
   z-index: 1;
   display: flex;
   gap: 2.5rem;
-
 }
 
 #main #home0 .intro-center .color-strap .color {
@@ -471,24 +477,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-background-color: #ffffff50;
-font-size: 2.5rem;
-color: #fff;
-position: relative;
+  background-color: #ffffff50;
+  font-size: 2.5rem;
+  color: #fff;
+  position: relative;
 }
 
-  #main #home03 .right .color-change {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background-color: #a74545;
-    z-index: -1;
-    width: 10vw;
-    height: 10vw;
-  }
-
+#main #home03 .right .color-change {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background-color: #a74545;
+  z-index: -1;
+  width: 10vw;
+  height: 10vw;
+}
 
 /* ------------------------------- HOME03 END -------------------------------- */
 
@@ -735,8 +740,8 @@ position: relative;
   font-size: 25rem;
   bottom: -96px;
   left: 100%;
-   z-index: 5;
-   color: #fff;
+  z-index: 5;
+  color: #fff;
 }
 
 #home2 .bottom {
@@ -858,7 +863,7 @@ position: relative;
   align-items: center;
 }
 
-#home2 .bottom-bar .center-bar{
+#home2 .bottom-bar .center-bar {
   width: 90%;
   height: 100%;
   border-left: 2px solid #cdcdcd;
@@ -878,10 +883,246 @@ position: relative;
 }
 
 #home2 .bottom-bar .center-bar .box {
-  
   width: 2%;
 }
 
 #home2 .bottom-bar .center-bar .box:nth-child(1) {
   width: 100%;
+}
+
+/* --------------------------------HOME3 START -------------------------------- */
+
+#main #home3 {
+  overflow: hidden;
+  width: 100%;
+  height: 430vh;
+  position: relative;
+  color: #d5a7b4;
+  background-color: #fff7ff;
+}
+
+#main #home3 > h1 {
+  margin: 4rem 4rem 4rem 4rem;
+  font-size: 10rem;
+  color: #d5a7b4;
+  border-bottom: 2px solid #d5a7b4;
+}
+
+#main #home3 .intro p,
+#main #home3 .intro span,
+#main #home3 .intro .heading,
+#main #home3 .intro .serial {
+  color: #d5a7b4;
+}
+
+#main #home3 .intro .extra {
+  background-color: #d5a7b4 !important;
+}
+#main #home3 .intro .extra1 {
+  border: 2px solid #d5a7b4 !important;
+}
+
+#main #home3 .center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8vh;
+  position: relative;
+}
+
+#main #home3 .center .center-img {
+  width: 35vw;
+  /* height: ; */
+  object-fit: cover;
+}
+
+#main #home3 .center .left img,
+#main #home3 .center .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#main #home3 .center .left {
+  position: absolute;
+  top: 70%;
+  left: 18%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main #home3 .center .right {
+  position: absolute;
+  top: 20%;
+  right: 18%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main #home3 .center .left p,
+#main #home3 .center .right p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#main #home3 .animate-bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #d5a7b4;
+  border-bottom: 2px solid #d5a7b4;
+}
+
+#main #home3 .animate-bar p {
+  font-size: 2.5rem;
+  /* color: #fff; */
+  white-space: nowrap;
+}
+
+#main #home3 .animation-triangle {
+  width: 100%;
+  height: 110vh;
+  margin-top: 100px;
+  position: relative;
+}
+
+#main #home3 .animation-triangle .ray {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+#main #home3 .animation-triangle .ray .overlay-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff7ff;
+}
+
+#main #home3 .animation-triangle .ray img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#main #home3 .animation-triangle .center {
+  width: 100%;
+  height: 62%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+#main #home3 .animation-triangle .center img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+#main #home3 .animation-triangle .text {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#main #home3 .animation-triangle .text p {
+  font-size: 5rem;
+  z-index: 5;
+  font-weight: 600;
+}
+
+#main #home3 .animation-triangle .text p:nth-child(1) {
+  margin-left: -12rem;
+}
+#main #home3 .animation-triangle .text p:nth-child(2) {
+  margin-right: -12rem;
+}
+#main #home3 .animation-triangle .text p:nth-child(3) {
+  margin-left: -12rem;
+}
+
+#main #home3 .img-gallery {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+#main #home3 .img-gallery .center-gallery {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  object-fit: cover;
+}
+
+#main #home3 .img-gallery .left-gallery {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 10vw;
+  /* height: 100%; */
+}
+
+#main #home3 .img-gallery .right-gallery {
+  position: absolute;
+  top: 80%;
+  right: 15%;
+  width: 10vw;
+  /* height: 100%; */
+}
+
+#main #home3 .bottom-circle {
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -7%;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  background-color: #d5a7b4;
+  border-radius: 50%;
+}
+/* --------------------------------HOME3 END -------------------------------- */
+/* --------------------------------HOME3-END START -------------------------------- */
+
+#main #home4 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #d5a7b4;
+  background-color: #d5a7b4;
 }
