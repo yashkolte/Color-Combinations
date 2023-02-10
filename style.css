@@ -203,12 +203,16 @@
   z-index: 5;
 }
 
-#mian #home0 .overlay {
+#main #home0 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+}
+
+#main #home0 .overlay .logo {
+  color: #fff;
 }
 
 /* ------------------- SAME INTRO FOR HOME0 & HOME1 & HOME3 ---------------------- */
@@ -419,6 +423,10 @@
   background-color: #a36452;
 }
 
+#main #home03 .overlay .logo {
+  color: #fff !important;
+}
+
 #main #home03 .left {
   width: 70%;
   height: 30%;
@@ -564,6 +572,10 @@
   left: 0;
   width: 100%;
   height: 100vh;
+}
+
+#main #home .overlay .logo {
+  color: #fff;
 }
 
 #main #home .overlay .center-circle {
@@ -900,6 +912,14 @@
   color: #d5a7b4;
   background-color: #fff7ff;
 }
+
+/* #main #home3 .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+} */
 
 #main #home3 > h1 {
   margin: 4rem 4rem 4rem 4rem;

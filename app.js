@@ -554,7 +554,7 @@ tl6.to("#end .bottom img:nth-child(6)", {
 var end = gsap.timeline({
   scrollTrigger: {
     trigger: "#end000",
-    start: "top top",
+    start: "top center",
     // pin: true,
     scrub: 1,
     // markers: true,
