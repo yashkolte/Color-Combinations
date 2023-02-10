@@ -39,7 +39,7 @@ loader.from("#loader img", {
 }, "loader")
 
 loader.to("#loader .loader-full", {
-  scale: 10,
+  scale: 15,
 })
 
 loader.to("#loader", {
