@@ -1395,4 +1395,17 @@
   margin-right: 1rem;
 }
 
+#main #home03 .left {
+  left: -65%
+}
+
+#main #home03 .right {
+  left: 250%;
+}
+
+#main #home03 .right .color-box {
+  min-width: 200px;
+  max-height: 120px;
+}
+
 }
