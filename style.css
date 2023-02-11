@@ -778,6 +778,8 @@
   align-items: end;
 }
 
+
+
 #home2 .top .boxes .box1 {
   width: 20%;
   height: 0%;
@@ -1408,6 +1410,132 @@
   max-height: 120px;
 }
 
+#main #home .center {
+  /* height: 150vh; */
+  width: 100vw;
+}
 
+#main #home .overlay .mid-circle {
+  width: 15vw;
+  height: 15vw;
+}
+
+#main #home .overlay .center-circle {
+  width: 70vw;
+  height: 70vw;
+}
+
+#main #home .c-box {
+  width: 50vw;
+  height: 65vw;
+}
+
+#main #home .overlay .bottom-text {
+  font-size: 2rem;
+  bottom: 3.5rem;
+}
+
+#main #home .overlay .after-bottom-text {
+  font-size: 1.5rem;
+  bottom: -200px;
+}
+
+#home .overlay .left-box {
+  width: 80vw;
+  height: 80vw;
+}
+
+#home .overlay .left-box img {
+  width: 100%;
+}
+
+#home2 .bottom .center-text h1 {
+  font-size: 1.2rem;
+}
+
+#home2 .bottom .serial {
+  top: 10%;
+  left: 5%;
+  transform: scale(0.6);
+}
+
+#main #home3 > h1 {
+  font-size: 2rem;
+  margin: 4rem 2rem;
+}
+
+#main #home3 .center .center-img {
+  width: 80vw;
+}
+
+#main #home3 .center .left {
+  width: 90px;
+  top: 75%;
+  left: 10%;
+}
+
+#main #home3 .center .right {
+  width: 90px;
+  top: 13%;
+  right: 10%;
+}
+
+#main #home3 {
+  /* height: 300vh; */
+}
+
+#main #home3 .animation-triangle .text {
+  height: 10vh;
+}
+
+#main #home3 .animation-triangle .text p {
+  font-size: 1.5rem;
+}
+
+#main #home3 .img-gallery {
+  height: 50vh;
+}
+
+#main #home3 .img-gallery .center-gallery {
+  width: 80vw;
+  border: 10px solid #fff7ff;
+}
+
+#main #home3 .img-gallery .left-gallery {
+  top: -10%;
+  left: 0%;
+  width: 50vw;
+}
+
+#main #home3 .img-gallery .right-gallery {
+  top: 160%;
+  right: 0%;
+  width: 50vw;
+  border-top: 10px solid #fff7ff;
+  border-left: 10px solid #fff7ff;
+}
+
+#main #home3 .img-gallery >p {
+  margin-top: -10vh;
+  font-size: 10rem;
+}
+
+#main #end .center h1 {
+  font-size: 2rem;
+}
+
+#main #end .center p {
+  margin-top: 1rem;
+  font-size: 0.6rem;
+}
+
+#main #end .center p span {
+  font-size: 1.2rem;
+}
+
+#main #end .bottom img {
+  width: 20vh;
+  height: 20vh;
+}
 
 }

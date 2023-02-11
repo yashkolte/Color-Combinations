@@ -313,7 +313,7 @@ tl1.to(".circle1", {
 
 tl1.to(".circle1", {
   duration: 5,
-  scale: 6,
+  scale: 10,
   ease: "power1",
 },"text");
 
