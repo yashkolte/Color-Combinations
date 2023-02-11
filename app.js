@@ -93,7 +93,7 @@ var tl03 = gsap.timeline({
 })
 
 tl03.to("#home01", {
-  backgroundColor: "#a36452",
+  backgroundColor: "#4e4376",
 })
 
 // --------------------- HOME 1 END -----------------------------
@@ -109,6 +109,13 @@ var tl04 = gsap.timeline({
     // markers: true,
   }
 })
+
+tl04.to("#home03 .gradient", {
+  duration: 5,
+  x: -6000,
+  ease: "power1",
+},"home03")
+
 
 tl04.to("#home03 .left", {
   duration: 3,

@@ -1,7 +1,26 @@
+@font-face {
+  font-family: digital;
+  src: url(./assets/fonts/ds-digital.ttf);
+}
+@font-face {
+  font-family: neue;
+  src: url(./assets/fonts/neue.ttf);
+}
+@font-face {
+  font-family: ogg;
+  src: url(./assets/fonts/ogg.ttf);
+}
+@font-face {
+  font-family: scto;
+  src: url(./assets/fonts/scto.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "neue", sans-serif;
+  font-weight: 500;
 }
 
 #main {
@@ -186,21 +205,22 @@
   width: 100%;
   height: 200vh;
   position: relative;
-  background-color: #93a5a1;
+  background-color: #1A2980;
 }
 
 #main #home0 .title {
   border-bottom: 2px solid #ffffff;
 }
 #main #home0 .title h1 {
-  font-size: 11rem;
+  font-size: 8rem;
   color: #ffffff;
   font-weight: 700;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
   margin-left: 2rem;
   white-space: nowrap;
   z-index: 5;
+  font-family: 'ogg', sans-serif;
 }
 
 #main #home0 .overlay {
@@ -249,7 +269,7 @@
 #main #home3 .intro .heading {
   width: 50%;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 3rem;
   margin-left: 2rem;
@@ -389,7 +409,7 @@
   width: 100%;
   height: 120vh;
   position: relative;
-  background-color: #93a5a1;
+  background-color: #2b5876;
   border-bottom: 4px solid #fff;
 }
 
@@ -410,7 +430,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: #a36452;
+  background-color: #4e4376;
 }
 
 /* ------------------------------- HOME02 END -------------------------------- */
@@ -447,6 +467,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   /* background-color: #fff; */
+  z-index: 10;
 }
 
 #main #home03 .center img:first-child {
@@ -464,6 +485,24 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+#main #home03 .gradient {
+  width: 500%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: linear-gradient(
+    90deg,
+    #d5a7b4 0%,
+    #105099 20%,
+    #9e9e4d 40%,
+    #f8955b 60%,
+    #c54126 80%,
+    #f4bf3c 100%
+  );
+
+  }
 
 #main #home03 .right {
   width: 90%;
@@ -489,18 +528,6 @@
   font-size: 2.5rem;
   color: #fff;
   position: relative;
-}
-
-#main #home03 .right .color-change {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  background-color: #a74545;
-  z-index: -1;
-  width: 10vw;
-  height: 10vw;
 }
 
 /* ------------------------------- HOME03 END -------------------------------- */
@@ -635,6 +662,12 @@
   gap: 10px;
   z-index: 1;
 }
+
+#main #home .c-box p {
+  font-family: 'scto', sans-serif;
+  font-weight: 3 00;
+}
+
 
 #main #home .c-box .c-img {
   display: flex;
@@ -859,7 +892,7 @@
   left: 5%;
   font-size: 2.5rem;
   overflow: hidden;
-  height: 60px;
+  height: 70px;
 }
 
 #home2 .bottom-bar {
@@ -1232,6 +1265,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #main #end000 .end-center img {
@@ -1389,8 +1423,16 @@
     margin-right: 1rem;
   }
 
+  #main #home03 .center {
+    weight: 50%;
+  }
+
   #main #home03 .left {
     left: -65%;
+  }
+
+  #main #home03 .gradient {
+    width: 2000%;
   }
 
   #main #home03 .right {
@@ -1518,6 +1560,7 @@
   }
 
   #main #end .center p {
+    white-space: nowrap;
     margin-top: 1rem;
     font-size: 0.6rem;
   }
@@ -1529,5 +1572,6 @@
   #main #end .bottom img {
     width: 20vh;
     height: 20vh;
+    margin-top: 15vh;
   }
 }
