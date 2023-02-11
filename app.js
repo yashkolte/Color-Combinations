@@ -320,7 +320,7 @@ tl1.to(".circle1", {
 tl1.to(
   ".top h1",
   {
-    duration: 10,
+    duration: 20,
     x: -4000,
     ease: "power1",
   },

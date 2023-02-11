@@ -749,6 +749,7 @@
 #home2 .top h1 {
   position: absolute;
   font-size: 25rem;
+  letter-spacing: 1rem;
   bottom: -96px;
   left: 100%;
   z-index: 5;
@@ -1471,8 +1472,9 @@
     right: 10%;
   }
 
-  #main #home3 {
-    /* height: 300vh; */
+  #main #home3 .animation-triangle .center img {
+  width: 100%;
+  height: 100%;
   }
 
   #main #home3 .animation-triangle .text {
