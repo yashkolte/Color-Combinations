@@ -1,7 +1,7 @@
 # Color-Combinations
 
 
-<img src="https://drive.google.com/file/d/1hLIpBgbXOgaOOjMI3R8JDq4ZUz0pyOAE/view?usp=share_link" />
+<img src=".assets/readme.gif" />
 
 Welcome to Color Combination, a website designed to help you find unique and inspiring color combinations for your projects.
 
