@@ -33,12 +33,6 @@ Welcome to Color Combination, a website designed to help you find unique and ins
 
 If you have any feedback, please reach out to us at yashkolte9@gmail.com
 
-## Inspiration 
-
-Design is inspired from dribbble
-
-Thanks to '<i> Offriginal Madrid </i>' for this awesome design.
-
 ## Support
 
 If you like this project 😊, please consider supporting it by giving a ⭐️.
