@@ -1,8 +1,5 @@
 # Color-Combinations
 
-
-<img src=".assets/readme.gif" alt="Color Combination gif" title="Color Combination gif" width="500" />
-
 Welcome to Color Combination, a website designed to help you find unique and inspiring color combinations for your projects.
 
 ![License](https://img.shields.io/github/license/yashkolte/gameui.svg)
